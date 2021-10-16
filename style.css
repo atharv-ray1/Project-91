@@ -1,0 +1,33 @@
+body
+{
+	background-image: url("k.jpg");
+	text-align: center;
+}
+
+	.login_div1 , .login_div2
+	{
+		background: white;
+		padding: 15px;
+		float: none;
+		border-radius: 20px;
+	   
+	}
+
+
+#player_1name , #player_2name
+{
+	display: inline-block;
+    border-radius:759px;
+	margin-right: 90%;
+    color: aqua;
+	float:none;
+}
+
+#output{
+    background-color: white;
+    border-radius: 10px;
+    border-top: 10px solid red;
+    padding: 10px;
+    float:none;
+    text-align: left;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Math Quiz</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h4 id="player_1name">:<span id="player_1score"></span><br></h4>
+<br>
+<h4 id="player_2name">:<span id="player_1score"></span></h4>
+<div class="container">
+    <center>
+        <h1 style="color:royalblue;">Math Quiz</h1>
+<h3 id="player_question"></h3>
+<h4 id="player_answer"></h3>
+    <div id="output" class="col-lg-6"></div>
+
+        <br>
+        <br>
+
+        <label>Tell the number: <b style="color: red"> For good experience : Enter 1 number in each input box.</br></label>
+<input type="text" id="number_tb" class="form-control" placeholder="Enter the Number and have Fun!!"><br>
+<br>
+<input type="text" id="number_tb1" class="form-control" placeholder="Enter the Number and have Fun!!"><br>
+<button id="button-1" onclick="send()" class="btn btn-info">Send</button>
+        <br>
+
+    </center>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
